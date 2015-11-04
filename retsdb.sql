@@ -71,6 +71,7 @@ CREATE TABLE IF NOT EXISTS `produse` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `denumire` varchar(50) NOT NULL DEFAULT '0',
   `cantitate_implicita` int(11) NOT NULL DEFAULT '0',
+  `tip` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
